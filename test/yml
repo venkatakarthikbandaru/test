@@ -1,0 +1,9 @@
+---
+- hosts: all 
+  become: true
+  
+  
+  tasks:
+    - name: getting uptime
+      shell: uptime;df -h
+    
