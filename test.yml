@@ -2,7 +2,7 @@
 - hosts: all 
   become: true
   
-  example
+  
   tasks:
     - name: getting uptime
       shell: uptime;df -h
