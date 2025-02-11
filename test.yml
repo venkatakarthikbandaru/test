@@ -2,7 +2,7 @@
 - hosts: all 
   become: true
   
-  
+  this is new comit
   tasks:
     - name: getting uptime
       shell: uptime;df -h
